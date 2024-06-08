@@ -1,0 +1,206 @@
+html,
+body {
+    /* Loại bỏ margin mặc định của trang */
+    margin: 0;
+
+    /* Thêm thuộc tính overflow-y: auto; nếu cần thiết */
+    overflow-y: auto;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Đảm bảo body có ít nhất chiều cao bằng cửa sổ trình duyệt */
+}
+
+.text-center {
+    text-align: center; /* Căn giữa nội dung */
+}
+
+.btn-primary {
+    display: block; /* Hiển thị nút như một khối để có thể thiết lập margin */
+    margin: 0 auto; /* Margin tự động theo chiều ngang để căn giữa */
+}
+
+
+h3 {
+    margin-top: 20px; /* Hoặc giá trị khác tuỳ theo cần thiết */
+}
+.form-signin {
+    padding-top: 20px; /* Hoặc giá trị khác tuỳ theo cần thiết */
+    max-width: 500px; /* hoặc giá trị khác tuỳ theo yêu cầu */
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8); /* Điều chỉnh màu nền của form */
+    border-radius: 0px; /* Bo góc của form */
+}
+
+.centered-text-and-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.centered-text-and-icon .icon-phone {
+    margin-right: 5px; /* Khoảng cách giữa biểu tượng và văn bản */
+}
+
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.btn-bd-primary {
+    --bd-violet-bg: #712cf9;
+    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #6528e0;
+    --bs-btn-hover-border-color: #6528e0;
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #5a23c8;
+    --bs-btn-active-border-color: #5a23c8;
+}
+
+.bd-mode-toggle {
+    z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+    display: block !important;
+}
+
+button.btn-primary {
+    width: 300px; /* Điều chỉnh chiều rộng theo ý muốn của bạn */
+    font-size: 18px; /* Điều chỉnh kích thước chữ theo ý muốn của bạn */
+    padding: 10px 20px; /* Điều chỉnh lề và độ dày của nút */
+}
+
+.icon-above-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon-above-text i {
+    margin-bottom: 5px; /* Khoảng cách giữa biểu tượng và văn bản */
+}
+
+.centered-text-and-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.centered-text-and-icon .icon-phone {
+    margin-right: 5px; /* Khoảng cách giữa biểu tượng và văn bản */
+}
+
+.icon-above-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon-above-text img {
+    width: 100px; /* Điều chỉnh kích thước của hình ảnh theo nhu cầu của bạn */
+    height: 100px; /* Điều chỉnh kích thước của hình ảnh theo nhu cầu của bạn */
+    margin-bottom: 5px; /* Khoảng cách giữa hình ảnh và văn bản */
+}
+
+.login-label {
+    margin-bottom: 10px; /* Tạo khoảng cách giữa chữ và các biểu tượng */
+    color:white;
+}
+
+.login100-form-logo {
+    display: inline-block;
+    width: 100px; /* Điều chỉnh kích thước của hình tròn */
+    height: 100px; /* Điều chỉnh kích thước của hình tròn */
+    overflow: hidden; /* Ẩn phần ngoài hình tròn */
+    border-radius: 50%; /* Tạo hình tròn */
+    text-align: center; /* Căn giữa nội dung trong hình tròn */
+    line-height: 100px; /* Căn giữa nội dung trong hình tròn */
+}
+
+.login100-form-logo img {
+    max-width: 100%; /* Đảm bảo hình ảnh không vượt quá kích thước của hình tròn */
+    max-height: 100%; /* Đảm bảo hình ảnh không vượt quá kích thước của hình tròn */
+    vertical-align: middle; /* Căn giữa hình ảnh trong hình tròn */
+}
+
+
